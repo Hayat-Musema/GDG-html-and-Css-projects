@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"href="style for form.css">
+</head>
+<body>
+    <header style="background-color: beige;">    
+    <div class="box">
+    <h1>WELCOME TO GDG STUDY SESSION RESGISTRATION FORM</h1>
+    <a href="" id="bar1">  Home</a>
+    <a href=""id="bar2">  About us</a>
+    <a href=""id="bar3">  contact us</a></div>
+    </header>
+
+<main>
+    <h3>Please fill the required fields accordingly</h3>
+    <br>
+    <form action="index.php" method="POST"enctype="multipart/form-data">
+
+        <label for="username">Full name</label>
+        <input type="text" id="Username" placeholder="enter your name here" minlength="6" maxlength="15"required><br><br>
+
+        <label for="password">password </label>
+        <input type="password" id="password" placeholder="enter your password here"required><br><br>
+
+        <label for="email">email </label>
+        <input type="email" id="email" placeholder="youremail@gmail.com"><br><br>
+        
+        <label for="phone number">phone number </label>
+        <input type="tel" id="phone number" placeholder="09-00-00-00-00"pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}" required><br><br>
+    
+        <label for="date of entry to AASTU">Entry date </label>
+        <input type="date" id="eday"><br><br>
+
+        <label for="Department">Department </label>
+        <input type="text" id="Department"><br><br>
+
+        <label for="Academic year"> academic year</label>
+        <input type="number" id="number of year"min="1"max="5"><br><br>
+
+        <label for="Sex">Sex </label><br>
+
+        <label for="Female">F </label>
+        <input type="radio" id="Female" value="Female" name="Sex">
+
+        <label for="Male">M </label>
+        <input type="radio" id="Male" value="Male" name="Sex"><br><br>
+
+        <label for="field of study">choose catagory to study </label>
+         <select id="field of study">
+            <option value="Web development">Web development</option>
+            <option value="DSA">DSA</option>
+            <option value="React">React</option>
+
+        </select><br><br>
+
+        <label for="additional info">Additional info about yourself </label>
+        <textarea id="additional info" rows="3" cols="25"></textarea><br><br>
+
+        <label for="file">Files you want to attach.</label>
+        <input type="file" id="file"><br><br>
+    </main>
+       
+        <label for="Agreement">I have checked all the information entered are correct.</label>
+        <input type="checkbox" id="Agreement"><br><br>
+         <br> <br><input type="reset">
+        <br> <br><input type="submit">
+    </form>
+    <footer  style="background-color: beige;">
+    <hr>
+        <small><a href="GDGsample@gmail.com">you can contuct us by GDGsample@gmail.com</a></small><br><br>
+    </footer>
+</body>
+</html>
