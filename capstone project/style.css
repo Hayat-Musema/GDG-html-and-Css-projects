@@ -1,0 +1,136 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: white;
+}
+
+header {
+    background:rgb(118, 118, 214);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#search-input {
+    width: 60%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    font-size: 1rem;
+    background: #fff;
+    color: #333;
+}
+
+#search-button {
+    padding: 12px 20px;
+    margin-left: 10px;
+    background: rgb(118, 118, 214);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#search-button:hover {
+    background: blue;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 12px 20px;
+    background: rgb(118, 118, 214);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: blue;
+}
+
+#posters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+#posters img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.movie-info{
+    margin-left:5px;
+}
+.movie-info h2{
+   font-size: 20px;
+  /* margin: 0px;*/
+   
+}
+.movie-info p{
+ font-size: 15px;
+
+}
+.movie-card {
+    background: #333;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+}
+
+footer nav {
+    margin-top: 10px;
+}
+
+footer nav a {
+    color: #ff7e5f;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+footer nav a:hover {
+    color: #feb47b;
+}
+
+
