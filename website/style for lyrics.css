@@ -19,3 +19,17 @@ p{
     float: left;
     margin-right: 40px;
 }
+a:link{
+    color:red;
+}
+a:visited{
+    color:green;
+}
+a:hover{
+    color:blue;
+    font-size: 1.1em;
+}
+a:active{
+    font-size: 1.1em;
+    color: rgb(126, 126, 182);
+}
