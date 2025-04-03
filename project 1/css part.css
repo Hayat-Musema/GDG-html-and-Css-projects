@@ -1,0 +1,239 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    width:80%;
+    max-width: 1200px;
+    margin: auto;
+}
+@media screen and(max-width:768px) {
+    body{font-size: 16px;}
+.container{
+    width: 95%;
+    padding: 10px;
+}
+.menu{
+    display: block;
+}
+}
+
+header{
+    background-color:rgb(47, 113, 93);
+    height: 80px;
+    width: 100vw;
+    
+}
+header img{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    
+}
+nav{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(58, 58, 58);
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+
+}
+.menu-icon{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+    cursor: pointer;
+
+}
+.menu-icon a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+#withinbar p{
+    color: white;
+    background-color: rgb(53, 51, 51);
+    padding: 10px;
+    display:none ;
+    }
+    
+a:hover{
+   background-color: rgb(198, 184, 184);
+   }
+a:not(:hover){
+  background-color: grey ;
+}
+.bar{
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 3px;
+}
+.image2text{
+    margin-left:50px;
+    color: white;
+    font-weight:normal;
+    text-align:left;
+    font-size: 30px;
+    font-stretch: expanded;
+    text-align: center;
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.textonimg{
+    background-size:cover;
+    background-image:url(Hero-section.jpg);
+    width:100vw;
+    height: 800px;
+    display:flex;
+    justify-content:left;
+    
+}
+.button{
+    font-size:20px;
+    background-color: rgb(23, 99, 95);
+    color:white;
+    border-radius:25px;
+    width: 400px;
+    height: 50px;
+    margin-top: 700px;
+    margin-right: 650px;
+    margin-bottom: 2500px;
+
+}
+h1{
+    text-align: center;
+    color: rgb(23, 99, 95);
+}
+h2{
+    text-align: center;
+    color: rgb(23, 99, 95);
+}
+#img3{
+    width: 600px;
+    height: auto;
+   padding-right: 300px;
+   padding-left: 200px;
+  
+}
+pre{
+    font-size: 25px;
+    text-align: left;
+}
+.imgcontainer{
+    position: relative;
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 0px;
+    display: block;
+    font-size: 10px;
+    border-radius: 50px;
+}
+.overlay{
+   
+    background-color: rgb(23, 99, 95);
+    color: white;
+    padding: 10px;
+    bottom: 0;
+    width: 340px;
+    height: 50px;
+    text-align:top;
+    margin:auto;
+   border: 15px;
+}
+#icon{
+    size: 20px;
+    margin: 0px;
+    display: block;
+    margin-top: 0px;
+    padding: auto;
+}
+#p1{
+    font-style: normal;
+    text-align: center;
+    color:black;
+    font-size: 100;
+}
+.sleegna{
+    background-color: rgb(251, 252, 255);
+}
+#button2{
+    border-radius: 10px;
+    font-size:20px;
+    background-color: rgb(23, 99, 95);
+    color:white;
+    width: 100px;
+    height: 50px;
+    margin-left: 1px;
+}
+#img4{
+    margin-left: 380px;
+}
+.other{
+    background-color:rgb(23, 99, 95) ;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    height: 150px;
+    margin: auto;
+    width: 1200px;
+}
+#button3{
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+}
+#img5{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100px;
+    width: 1000px;
+}
+.form{
+    margin-left: 50px;
+}
+.lastbutn1{
+     font-size:20px;
+     background-color: rgb(208, 206, 206);
+     border-color: rgb(23, 99, 95);
+     color:rgb(23, 99, 95);
+     border-radius:10px;
+     width: 100px;
+     height: 45px;
+     margin-left: 400px ;
+}
+.lastbutn2{
+    font-size:20px;
+    background-color: rgb(23, 99, 95);
+    color:white;
+    border-radius:10px;
+    width: 80px;
+    height: 45px;
+    margin-right: 200px;
+   
+}
+footer{
+    background-color:rgb(47, 113, 93);
+    height:500px ;
+    width: 100vw;
+}
+.lastword{
+    color: white;
+   text-align: center;
+}
+.lastticons{
+    display: inline-flex;
+    gap: 30px;
+}
